@@ -70,6 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       supplies.each do |item|
         print item
       end
+      puts
     end
   end
 
