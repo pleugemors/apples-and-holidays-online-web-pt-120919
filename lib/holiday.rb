@@ -68,9 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |holiday1, supplies|
       phrase = "  "+ holiday1.to_s.capitalize + ": "
       phrase += supplies.join(", ")
-      binding.pry
       puts phrase
-      puts
     end
   end
 
